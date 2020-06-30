@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Angham"
+    android:layout_margin="16dp"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:background="#422E34"
+            android:layout_marginBottom="8dp"
+            >
+            <ImageView
+                android:layout_width="304dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/albumangham"
+                android:scaleType="fitXY"
+                />
+
+            <Button
+                android:id="@+id/album_angham"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:text="listen\nto\nألبوم\n حالة خاصة جدا"
+                android:textAllCaps="false"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:background="@drawable/an"
+            android:layout_marginBottom="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:background="@drawable/angham"
+            android:layout_marginBottom="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:background="@drawable/annnnn"
+            />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F81302</item>
+        <item name="colorPrimaryDark">#CA1204</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="Album_Sherin" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">#F1ADC3</item>
+    <item name="colorPrimaryDark">#C37F96</item>
+    </style>
+
+    <style name="AmerDiab" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F1C27C</item>
+        <item name="colorPrimaryDark">#D88505</item>
+    </style>
+
+    <style name="Amal" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#C9E9EF</item>
+        <item name="colorPrimaryDark">#8BCFD8</item>
+    </style>
+
+    <style name="Angham" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#BCDC96</item>
+        <item name="colorPrimaryDark">#74A53B</item>
+        <item name="colorButtonNormal">#74A53B</item>
+    </style>
+
+    <style name="Album_Angham" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#424341</item>
+        <item name="colorPrimaryDark">#151515</item>
+        <item name="colorButtonNormal">#74A53B</item>
+    </style>
+
+
+</resources>

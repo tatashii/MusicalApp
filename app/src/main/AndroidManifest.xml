@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.musicalapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Anghami"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".Album_Sherin"
+            android:label="مشاعر"
+            android:parentActivityName=".Angham"
+            android:theme="@style/Album_Angham" />
+
+        <activity
+            android:name=".Album_Angham"
+            android:label="ألبوم حالة خاصة"
+            android:parentActivityName=".Angham"
+            android:theme="@style/Album_Angham" />
+        <activity
+            android:name=".AmerDiab"
+            android:label="عمرودياب\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AmerDiab" />
+        <activity
+            android:name=".Amal"
+            android:label="آمال\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Amal" />
+        <activity
+            android:name=".Angham"
+            android:label="أنغام\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Angham" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
